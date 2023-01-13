@@ -1,0 +1,72 @@
+*{
+    color: blue;
+    box-sizing: border-box;
+}
+
+p, span {
+    color: red;
+    width: 300px ;
+}
+
+body {
+    background-image: url("C:/Users/enessi/Downloads/20200207115132-senderismo-en-chamonix-macizo-del-mont-blanc.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*background-color: lightgreen;*/
+  }
+
+@media only screen and (max-width: 600px) {
+    body {
+      /*background-color: lightblue;*/
+      background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(0, 255, 255, 0.402)),
+                  url("C:/Users/enessi/Downloads/istockphoto-671493466-1024x1024.jpg");
+      /*background-image: url("C:/Users/enessi/Downloads/maxresdefault.jpg");*/
+      background-size:300px 200px;
+      background-position: top;
+      backgr
+    }
+  }
+
+/**
+Esto es un comentario
+*/
+
+h1 {
+    border: 10px solid black;
+    /** padding: 20px;*/
+    padding: 30px 15px 25px 20px;
+   /** padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 30px;*/
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    color: grey;
+}
+
+section {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
+
+  #parf1
+  {
+    color: yellow;
+    border: solid orange;
+    font-size: 25px;
+  }
+
+  #parf0{
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .claseparrafo{
+font-weight: bold;
+color: lightblue;
+  }
