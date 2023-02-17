@@ -4,24 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilos_cv.css" />
     <title>Form</title>
 </head>
 <body>
-    <div style="background-color:black;color:white;padding:20px;">
-    <h1>Complete sus datos</h1>
-    <p>Cargue todos los <strong>Datos</strong> son importantes</p>
-    <div>Formulario</div>
-    <form action="" method="get">
-        <label>Nombre</label>
-        <input type="text" name="nombre" required placeholder="Ingrese su nombre" />
-        <label>Apellido</label>
-        <input type="text" name="apellido" placeholder="Ingrese su Apellido" />
-        <label>Mail</label>
-        <input type="email" name="mail" placeholder="Ingrese su mail" />
-        <label>Password</label>
-        <input type="password" name="password"/>
-        <input type="submit" value="Enviar">
-    </form>
-    </div>
+    <div style="color:black;padding:20px;">
+    <h1>Complete sus <strong>Datos</strong></h1>
+    <hr>
+        <form action="mailto:edynessi@gmail.com" enctype="" method="post">
+            <table class="tabla" border="0" cellpadding="4" cellspacing="0" style="width: 90%;">
+                <tbody>
+                    <tr><td width="30%"><div align="right">
+                    <b>Nombre:</b></div>
+                    </td><td width="70%"><input name="name" required placeholder="Ingrese su nombre" size="25" type="text"></td>
+                    </tr>
+
+                    <tr><td width="30%"><div align="right">
+                        <b>Apellido:</b></div>
+                        </td><td width="70%"><input name="apellido" required placeholder="Ingrese su Apellido" size="25" type="text"></td>
+                    </tr>
+
+                    <tr><td width="30%"><div align="right">
+                        <b>Telefono:</b></div>
+                        </td><td width="70%"><input name="telefono" required placeholder="Ingrese su Telefono" size="25" type="number"></td>
+                    </tr>
+                        
+                    <tr>
+                        <td><div align="right">
+                        <b>Email:</b></div>
+                        </td><td><input name="email" size="25" required placeholder="Ingrese su mail" type="email"></td>
+                    </tr>
+
+                    <tr>
+                        <td><div align="right">
+                        <b>Comentarios:</b></div>
+                        </td>
+                        <td><textarea cols="20" name="comment" rows="4"></textarea></td>
+                    </tr>
+
+                    <tr>
+                        <td></td><td><input name="enviar" type="submit" value="Submit"><input name="reset" type="reset" value="Reset"></td></tr>
+                </tbody>
+            </table>
+        </form>
+
+    <section>
+        <div class="social">  
+            <ul>              
+                <li>Mail: edynessi79@gmail.com</li>
+                <li><a href="https://www.facebook.com/edynessi79"><img class="iconsocial" src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="facebook"></a>edynessi79</li>
+                <li><a href="https://www.twitter.com/edynessi"><img class="iconsocial" src="https://w7.pngwing.com/pngs/708/311/png-transparent-icon-logo-twitter-logo-twitter-logo-blue-social-media-area-thumbnail.png" alt="twitter"></a>@edynessi</li>
+                <li><a href="https://www.instagram.com/edynessi79tr"><img class="iconsocial" src="https://about.fb.com/es/wp-content/uploads/sites/13/2019/10/new-ig-icon-1.png" alt="instagram"></a>@edynessi79tr</li>
+            </ul>
+        </div>
+    </section>
+    
+    <button type="button" id="boton"><a href="index_cv.html">Volver al Home</a></button> 
+
 </body>
+
 </html>

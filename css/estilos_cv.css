@@ -1,0 +1,269 @@
+:root{
+    --dark1  :  #2e3440;
+    --dark2  :  #3b4252;
+    --dark3  :  #434c5e;
+    --dark4  :  #4c566a;
+   --light1  :  #d8dee9;
+   --light2  :  #e5e9f0;
+   --light3  :  #eceff4;
+    --blue1  :  #8fbcbb;
+    --blue2  :  #88c0d0;
+    --blue3  :  #81a1c1;
+    --blue4  :  #5e81ac;
+      --red  :  #bf616a;
+   --orange  :  #d08770;
+   --yellow  :  #ebcb8b;
+    --green  :  #a3be8c;
+   --purple  :  #b48ead;
+   --letras  :  white;
+   --font: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto" , "Ubuntu" , "Cantarell", "Fira Sans", "Droid Sans" , "Helvetica Neu Helvetica" , "Arial" , sans-serif;
+}
+
+/*
+* { outline: 1px solid red;}   
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+font-family: var(--font);
+color: var(--dark2);
+background-image: url("C:/Users/enessi/Downloads/20200207115132-senderismo-en-chamonix-macizo-del-mont-blanc.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+@media only screen and (max-width: 300px) {
+    body {
+      background-color: lightblue;
+      background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(0, 255, 255, 0.402));
+    }
+  }
+
+  div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    color: white;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }  
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+#fotoedy{
+    height:"400px";
+    width:"300px";
+    mar
+}
+
+
+section{
+    width: 960px;
+    margin: 0 auto;
+}
+
+form{
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;   
+}
+
+div form label{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.flex{
+    display: flex;
+}
+
+header, footer{
+    width: vmax;
+    background-color: var(--blue2);
+    color: var(--dark2);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    position: sticky;
+    top: 10px;
+}
+
+.social{
+    margin-left: 0px;
+    margin-top: 30px;
+}
+
+.font_1{
+    border: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique; 
+    font-family: "Sofia", sans-serif;
+    font-size: 18px; line-height: 1.6em; 
+    outline: 0px;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px; 
+    vertical-align: baseline;
+    color: black;
+}
+
+.font_2{
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic; 
+    font-family: "Sofia", sans-serif;
+    font-size: 18px; line-height: 1.6em; 
+    outline: 0px;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 150px; 
+    vertical-align: baseline;
+    color: black;
+}
+
+.font_3{
+  text-align: center;
+  font-weight: bold;
+  font-style: italic; 
+  font-family: "Sofia", sans-serif;
+  font-size: 18px; line-height: 1.6em; 
+  outline: 0px;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px; 
+  vertical-align: baseline;
+  color: black;
+}
+
+.iconsocial{
+    width: 4%;
+    height: 4%;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.nombre{
+    text-transform: uppercase;
+    color: black;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+#barramenu{
+    /**position: sticky;**/
+    top: 250px;
+}
+
+nav ul li {
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: 10px 20px;
+    background-color: var(--blue2);
+    font-style: italic;
+    color: black;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+#tenis{
+    list-style: '🎾';
+}
+
+#running{
+    list-style: '🏃‍♂️';
+}
+
+#crossfit{
+    list-style: '🏋️';
+}
+
+#estudio{
+    list-style: '📚';
+}
+
+p{
+    color: var(--letras);
+}
+
+article{
+    width: fit-content;
+}
+
+hr{
+    color: black;
+}
+
+aside{
+    margin-left: 20px;
+}
+
+a, a:link, a:visited{
+    text-decoration: none;
+    color: var(--blue1blue1);
+    font-weight: bold;
+}
+
+img {
+    height: 200px; 
+    width: 175px;
+    margin-right: 16px;
+}  
+
+progress {
+    margin-left: 8px;
+}
